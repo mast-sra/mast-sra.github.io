@@ -1,0 +1,49 @@
+project:
+  type: website
+  pre-render: build_carousel2.R
+
+website:
+  title: "MAST Dept. Summer Research"
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "DataFest 2026 has concluded. Thank you to all who participated! Stay tuned for photos."
+  #   type: primary
+  #   position: below-navbar
+  navbar:
+    logo: figures/midd_shield.png
+    logo-alt: "Middlebury College"
+    # logo-href: https://midd-datafest.github.io/
+    search: true
+    left:
+      - text: Home
+        href: index.qmd
+      # - text: "2026"
+      #   href: years/2026/about.qmd
+    tools:
+      - icon: envelope-at
+        href: mailto:cstratton@middlebury.edu
+
+  # sidebar:
+  #   - id: year-2026
+  #     title: "Summer 2026"
+  #     contents:
+  #       - text: "Home"
+  #         href: index.qmd
+  #       - text: "---"
+  #       - text: Photos
+  #         href: years/2026/photos.qmd
+  #       - text: Projects
+  #         href: years/2026/projects.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: true
+
+execute:
+  freeze: auto
+
+# quarto render
+# quarto publish gh-pages

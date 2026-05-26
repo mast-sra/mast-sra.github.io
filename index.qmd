@@ -1,0 +1,24 @@
+---
+page-layout: full
+sidebar: false
+---
+
+## Calendar
+
+Keep an eye on the calendar for updates about seminars, workshops, and social events. Events fall into three categories: **MAST** events hosted by the Math and Stat department; **URO** events hosted by the Undergraduate Research Office, and workshops hosted by the library (**Lib**).
+
+<div style="text-align:center">
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=bWFzdGRlcHRAZ21haWwuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%230b8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+
+## Photos 
+
+Send photos to [cstratton@middlebury.edu](mailto:cstratton@middlebury.edu) if you would like them added to this website.
+
+```{r, echo=FALSE, results='asis'}
+cat(readLines("carousel_tabs.html"), sep = "\n")
+```
+
+***
+
+For comments or suggestions, please contact Christian Stratton  ([cstratton@middlebury.edu](mailto:cstratton@middlebury.edu)).
