@@ -54,3 +54,9 @@ a:hover { opacity: 0.85; }
   opacity: 1;
   border-color: #0D395F;
 }
+
+.carousel-blurb {
+  font-style: plain;
+  color: #000;
+  margin-bottom: 0.75rem;
+}

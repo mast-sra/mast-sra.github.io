@@ -15,8 +15,8 @@ Keep an eye on the calendar for updates about seminars, workshops, and social ev
 
 Send photos to [cstratton@middlebury.edu](mailto:cstratton@middlebury.edu) if you would like them added to this website.
 
-```{r, echo=FALSE, results='asis'}
-cat(readLines("carousel_tabs.html"), sep = "\n")
+```{=html}
+{{< include carousel_tabs.html >}}
 ```
 
 ***
